@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4687578405239218763}
   - component: {fileID: 1310854057905659570}
   - component: {fileID: 3502524618901999853}
+  - component: {fileID: -6580255131909824968}
   m_Layer: 0
   m_Name: glasses
   m_TagString: glasses
@@ -98,3 +99,16 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
+--- !u!65 &-6580255131909824968
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724447177950800494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.58024365, y: 0.22219834, z: 0.6141986}
+  m_Center: {x: 0, y: 0.00000019744039, z: 2.289835e-16}

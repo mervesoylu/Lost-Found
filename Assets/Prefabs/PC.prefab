@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3190611394909120133}
   - component: {fileID: 9186179148896590460}
   - component: {fileID: -7054195561663926119}
+  - component: {fileID: 9065318926024851158}
   m_Layer: 0
   m_Name: PC
   m_TagString: pc
@@ -102,3 +103,16 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
+--- !u!65 &9065318926024851158
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7441929344265940640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5444251, y: 2.229303, z: 2.5172262}
+  m_Center: {x: -0.000001013279, y: 0.000000059604645, z: -0.00000047683716}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8071435451723541923}
   - component: {fileID: 2540019934053929306}
   - component: {fileID: 246192660441733529}
+  - component: {fileID: 9116467187115675563}
   m_Layer: 0
   m_Name: doll
   m_TagString: doll
@@ -100,3 +101,16 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
+--- !u!65 &9116467187115675563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4252278347253425542}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2987614, y: 3.9723825, z: 2.5977511}
+  m_Center: {x: -0.0018444068, y: 0.12440199, z: 0}

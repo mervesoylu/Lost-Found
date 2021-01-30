@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6611583089056338513}
   - component: {fileID: 647821949588025000}
   - component: {fileID: 7180999719600923327}
+  - component: {fileID: 1471271923426084537}
   m_Layer: 0
   m_Name: suitcase
   m_TagString: suitcase
@@ -99,3 +100,16 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
+--- !u!65 &1471271923426084537
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207334882485148276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3101217, y: 2.1270974, z: 1.0000001}
+  m_Center: {x: 0, y: 0, z: 0}

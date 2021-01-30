@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6397173563533696863}
   - component: {fileID: 863523571932717990}
   - component: {fileID: 6423653047434463090}
+  - component: {fileID: 6743504213567428997}
   m_Layer: 0
   m_Name: carrot
   m_TagString: carrot
@@ -98,3 +99,16 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
+--- !u!65 &6743504213567428997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425121077019531130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.26823, y: 6.703187, z: 1.2682304}
+  m_Center: {x: 7.719381e-11, y: -0.004144311, z: 1.2351009e-10}
