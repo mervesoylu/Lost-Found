@@ -6,10 +6,11 @@ using UnityEngine;
 public class customerObject : MonoBehaviour
 {
     public customerObjectsList list;
+    public customers cusInst;
     public GameObject ob;
 
     public bool right;
-
+    public bool wrong;
 
     // Start is called before the first frame update
     void Start()
@@ -35,10 +36,16 @@ public class customerObject : MonoBehaviour
                 {
                     Debug.Log("Right");
                     right = true;
+                    cusInst.cus.GetComponentInParent<MeshRenderer>().enabled = false;                    
+                    Destroy(ob);
                 }
                 if (hitInfo.collider.gameObject.tag != ob.tag)
                 {
                     Debug.Log("Wrong");
+                    wrong = true;
+                    
+                    Destroy(ob);
+                    
                 }
             }
         }

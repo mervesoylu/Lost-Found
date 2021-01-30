@@ -124,4 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list: {fileID: 6536806749895210414, guid: 561ef457d6f5876429963f534121f1f3, type: 3}
+  cusInst: {fileID: 4472863670294756476, guid: 38a28c72b1a7907448f3c21832a94d3b, type: 3}
   ob: {fileID: 0}
+  right: 0
+  wrong: 0
