@@ -16,7 +16,7 @@ public class customerObject : MonoBehaviour
         
         for (var i = 0; i < 1; i++)
         {
-            ob = Instantiate(list.objects[Random.Range(0, list.objects.Count)], transform.position, Quaternion.identity, transform.parent);
+            ob = Instantiate(list.objects[Random.Range(0, list.objects.Count)], transform.position, Quaternion.identity);
         }
     }
 

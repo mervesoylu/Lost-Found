@@ -11,6 +11,16 @@ TagManager:
   - pencil
   - sneaker
   - sock
+  - avacado
+  - bed
+  - bin
+  - briefcase
+  - carrot
+  - doll
+  - glasses
+  - pc
+  - phone
+  - suitcase
   layers:
   - Default
   - TransparentFX
