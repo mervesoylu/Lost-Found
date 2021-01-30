@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class customerObject : MonoBehaviour
 {
-    public List<GameObject> objects = new List<GameObject>();
+    public customerObjectsList list;
 
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < 1; i++)
+        
+        for (var i = 0; i < 1; i++)
         {
-            Instantiate(objects[Random.Range(0, objects.Count)], transform.position, Quaternion.identity);
+            Instantiate(list.objects[Random.Range(0, list.objects.Count)], transform.position, Quaternion.identity, transform.parent);
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
