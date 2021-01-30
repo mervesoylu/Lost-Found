@@ -5,9 +5,10 @@ using UnityEngine;
 public class customers : MonoBehaviour
 {
     public customerList list;
-    public gameUI ans;
+    //public gameUI ans;
 
     public GameObject cus;
+
 
 
     void Start()
@@ -41,10 +42,10 @@ public class customers : MonoBehaviour
             StartCoroutine(WaitInstantiate());
         }
 
-        if (ans.answer.right == true)
-        {
-            cus.SetActive(false);
-        }
+        //if (ans.answer.right == true)
+        //{
+        //    cus.SetActive(false);
+        //}
     }
 
 
@@ -54,7 +55,7 @@ public class customers : MonoBehaviour
     {
         yield return new WaitForSeconds(10);
 
-        Object.Destroy(cus); 
+        cus.SetActive(false);
 
     }
 
