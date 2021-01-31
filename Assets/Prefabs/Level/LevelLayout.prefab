@@ -18059,3 +18059,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 9216538676441346954}
   m_PrefabAsset: {fileID: 0}
+
+      propertyPath: m_LocalScale.x
+        type: 3}
+    - target: {fileID: 8664457124404560046, guid: d320052d17cd6584eae490709ad44dc2,

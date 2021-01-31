@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class customerObject : MonoBehaviour
 {
     public customerObjectsList list;
+
+    public int livesCount = 3;
+
     public GameObject ob;
     public lives hearts;
 
@@ -33,11 +37,13 @@ public class customerObject : MonoBehaviour
             {
                 if (hitInfo.collider.gameObject.tag == ob.tag)
                 {
+
                     Debug.Log("Right");
 
 
                     Destroy(ob);
                 }
+
                 if (hitInfo.collider.gameObject.tag != ob.tag)
                 {
                     Debug.Log("Wrong");

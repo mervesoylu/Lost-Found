@@ -87,18 +87,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 304479916175235174}
     m_Modifications:
-    - target: {fileID: 43964590806377214, guid: 0eb12aff47a1e0e44a69cbbf3f9938fb,
-        type: 3}
-      propertyPath: currList
-      value: 
-      objectReference: {fileID: 3690141198977674372, guid: f8779eea0d0e11d4994a29812f725e8a,
-        type: 3}
-    - target: {fileID: 43964590806377214, guid: 0eb12aff47a1e0e44a69cbbf3f9938fb,
-        type: 3}
-      propertyPath: hearts
-      value: 
-      objectReference: {fileID: 8185715588774231531, guid: e65dd5d42d0132e4f86a01663da5e4d8,
-        type: 3}
     - target: {fileID: 5481311987113713206, guid: 0eb12aff47a1e0e44a69cbbf3f9938fb,
         type: 3}
       propertyPath: m_LocalPosition.x
