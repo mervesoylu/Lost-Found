@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class customerObject : MonoBehaviour
 {
     public customerObjectsList list;
-    public customers cusInst;
+
+    public int livesCount = 3;
+
     public GameObject ob;
 
     public bool right;
     public bool wrong;
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,20 +38,29 @@ public class customerObject : MonoBehaviour
             {
                 if (hitInfo.collider.gameObject.tag == ob.tag)
                 {
+
                     Debug.Log("Right");
                     right = true;
-                    cusInst.cus.GetComponentInParent<MeshRenderer>().enabled = false;                    
+                    
                     Destroy(ob);
+
                 }
+
                 if (hitInfo.collider.gameObject.tag != ob.tag)
                 {
                     Debug.Log("Wrong");
                     wrong = true;
-                    
                     Destroy(ob);
-                    
+
                 }
+
             }
+        }
+
+
+        if (ob == false)
+        {
+            ob = Instantiate(list.objects[Random.Range(0, list.objects.Count)], transform.position, Quaternion.identity);
         }
     }
 

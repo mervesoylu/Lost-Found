@@ -125,5 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list: {fileID: 6536806749895210414, guid: 561ef457d6f5876429963f534121f1f3, type: 3}
   cusInst: {fileID: 4472863670294756476, guid: 38a28c72b1a7907448f3c21832a94d3b, type: 3}
+  scor: {fileID: 5592074121104026357, guid: f8779eea0d0e11d4994a29812f725e8a, type: 3}
   ob: {fileID: 0}
   right: 0
+  wrong: 0
