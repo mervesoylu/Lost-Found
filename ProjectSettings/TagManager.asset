@@ -21,6 +21,47 @@ TagManager:
   - pc
   - phone
   - suitcase
+  - bamboo
+  - banner
+  - blade
+  - cactus
+  - boat
+  - paddle
+  - cart
+  - flower1
+  - flower2
+  - flower3
+  - flower4
+  - flower5
+  - flower6
+  - flower7
+  - flower8
+  - flower9
+  - hedge
+  - lantern
+  - log1
+  - log2
+  - log3
+  - mushroom1
+  - mushroom2
+  - mushroom3
+  - mushroom4
+  - mushroom5
+  - mushroom6
+  - pumpkin
+  - rock1
+  - rock2
+  - rock3
+  - block
+  - block2
+  - block3
+  - rock4
+  - tree1
+  - tree2
+  - tree3
+  - tree4
+  - tree5
+  - tree6
   layers:
   - Default
   - TransparentFX
