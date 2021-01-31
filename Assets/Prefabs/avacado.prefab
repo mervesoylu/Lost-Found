@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2135519919985930857}
   - component: {fileID: 5665085669576527504}
   - component: {fileID: -4952084834036675834}
+  - component: {fileID: -7732575121200301288}
   m_Layer: 0
   m_Name: avacado
   m_TagString: avacado
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6242758099456883276}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.03, y: 3.098, z: 2.738}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
@@ -98,3 +99,16 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
+--- !u!65 &-7732575121200301288
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6242758099456883276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7140114, y: 2.285369, z: 1.8013369}
+  m_Center: {x: 0.0014930367, y: 0.001442492, z: 0}

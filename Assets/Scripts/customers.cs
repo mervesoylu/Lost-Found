@@ -21,7 +21,7 @@ public class customers : MonoBehaviour
 
 
         }
-        StartCoroutine(WaitInstantiate());
+        //StartCoroutine(WaitInstantiate());
     }
 
     
@@ -30,23 +30,23 @@ public class customers : MonoBehaviour
 
 
 
-    IEnumerator WaitInstantiate()
-    {
-        yield return new WaitForSeconds(10);
+    //IEnumerator WaitInstantiate()
+    //{
+    //    yield return new WaitForSeconds(10);
 
-        Object.Destroy(cus);
+    //    Object.Destroy(cus);
 
-        for (var i = 0; i < 1; i++)
-        {
-            cus = Instantiate(list.customers[Random.Range(0, list.customers.Count)], transform.position, Quaternion.identity);
+    //    for (var i = 0; i < 1; i++)
+    //    {
+    //        cus = Instantiate(list.customers[Random.Range(0, list.customers.Count)], transform.position, Quaternion.identity);
 
-            cus.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+    //        cus.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
 
-        }
+    //    }
 
-        StartCoroutine(WaitInstantiate());
+    //    StartCoroutine(WaitInstantiate());
 
-    }
+    //}
 
     
 }

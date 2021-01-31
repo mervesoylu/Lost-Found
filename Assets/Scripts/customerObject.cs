@@ -7,8 +7,9 @@ public class customerObject : MonoBehaviour
 {
     public customerObjectsList list;
     public GameObject ob;
+    public lives hearts;
 
-    public bool right;
+
 
 
     // Start is called before the first frame update
@@ -18,13 +19,12 @@ public class customerObject : MonoBehaviour
         for (var i = 0; i < 1; i++)
         {
             ob = Instantiate(list.objects[Random.Range(0, list.objects.Count)], transform.position, Quaternion.identity);
-
-            Destroy(ob, 10);
         }
     }
 
     public void Update()
     {
+        Destroy(ob, 10);
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -34,13 +34,25 @@ public class customerObject : MonoBehaviour
                 if (hitInfo.collider.gameObject.tag == ob.tag)
                 {
                     Debug.Log("Right");
-                    right = true;
+
+
+                    Destroy(ob);
                 }
                 if (hitInfo.collider.gameObject.tag != ob.tag)
                 {
                     Debug.Log("Wrong");
+
+                    hearts.liveCount[0].SetActive(false);
+                    Destroy(ob);
+
                 }
+                
             }
+        }
+
+        if (ob == false)
+        {
+            ob = Instantiate(list.objects[Random.Range(0, list.objects.Count)], transform.position, Quaternion.identity);
         }
     }
 

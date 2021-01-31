@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6397173563533696863}
   - component: {fileID: 863523571932717990}
   - component: {fileID: 6423653047434463090}
+  - component: {fileID: 6743504213567428997}
   m_Layer: 0
   m_Name: carrot
   m_TagString: carrot
@@ -26,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425121077019531130}
-  m_LocalRotation: {x: 0.63971204, y: 0.7523963, z: 0.02246322, w: 0.15544695}
+  m_LocalRotation: {x: 0.6397109, y: 0.75239676, z: 0.022463541, w: 0.15544921}
   m_LocalPosition: {x: -8.07, y: 2.913, z: 3.26}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.3, y: 0.30000004, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,3 +99,16 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
+--- !u!65 &6743504213567428997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425121077019531130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.7199116, y: 4.7882004, z: 1.2679696}
+  m_Center: {x: 0.030787826, y: -0.021442655, z: -0.011118799}

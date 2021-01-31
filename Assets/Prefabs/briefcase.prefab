@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6946953362144955629}
   - component: {fileID: 3698581391295967252}
   - component: {fileID: -7061369553462266565}
+  - component: {fileID: -2301523513834062286}
   m_Layer: 0
   m_Name: briefcase
   m_TagString: briefcase
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3127985379580495048}
-  m_LocalRotation: {x: -0, y: 0.8565971, z: -0, w: -0.5159858}
+  m_LocalRotation: {x: 0, y: 0.8565961, z: -0, w: -0.5159876}
   m_LocalPosition: {x: 5.317, y: 0.818, z: 0.61}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
@@ -99,3 +100,16 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
+--- !u!65 &-2301523513834062286
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127985379580495048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3056207, y: 1.2692485, z: 1.8968437}
+  m_Center: {x: 0, y: -0.000000029802322, z: -0.0000009834766}

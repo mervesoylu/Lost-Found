@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8739000709903931693}
   - component: {fileID: 3061220362558514644}
   - component: {fileID: 4788501621325014630}
-  - component: {fileID: 7031628721302723108}
+  - component: {fileID: 5451110474921862348}
   m_Layer: 0
   m_Name: pencil
   m_TagString: pencil
@@ -99,7 +99,7 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
---- !u!65 &7031628721302723108
+--- !u!65 &5451110474921862348
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,5 +110,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9073719, y: 4.885832, z: 0.83757895}
-  m_Center: {x: -0.0049162656, y: 0.0012290477, z: -0.000000029802322}
+  m_Size: {x: 3.0820224, y: 4.1635594, z: 0.8375791}
+  m_Center: {x: -0.20146623, y: 0.04019212, z: -0.000000030928106}

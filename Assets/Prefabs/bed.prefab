@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 800893756059507639}
   - component: {fileID: 6350587623472015182}
   - component: {fileID: -8837240203988679980}
+  - component: {fileID: 8389380373040814097}
   m_Layer: 0
   m_Name: bed
   m_TagString: bed
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91bff9de8ea62d34baaad65ac7c65099, type: 2}
+  - {fileID: 2100000, guid: 2807dd523e6138a449e7d6374574fae9, type: 2}
   - {fileID: 2100000, guid: 1f4915c959180d04fadbbcda2159d77f, type: 2}
   - {fileID: 2100000, guid: bf459ee26e5e65b4d9eaaaf71dd0620d, type: 2}
   m_StaticBatchInfo:
@@ -99,3 +100,16 @@ MonoBehaviour:
   dnPos: {x: 0, y: 0, z: 0}
   upPos: {x: 0, y: 0, z: 0}
   currPos: {x: 0, y: 0, z: 0}
+--- !u!65 &8389380373040814097
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4619857345132401554}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2603338, y: 2.4207568, z: 0.76386577}
+  m_Center: {x: 0.00000008940697, y: 0.000000014901175, z: 0.000000014901175}
